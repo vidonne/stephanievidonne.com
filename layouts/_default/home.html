@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <!-- {{ .Content }}
+  {{ range site.RegularPages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Summary }}
+  {{ end }} -->
+  {{ partial "hero.html" . }}
+  {{ partial "about.html" . }}
+  {{ partial "shop.html" . }}
+  {{ partial "contact.html" . }}
+{{ end }}

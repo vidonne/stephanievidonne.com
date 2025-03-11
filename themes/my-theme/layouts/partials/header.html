@@ -1,2 +1,18 @@
-<h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<!-- <h1>{{ site.Title }}</h1>
+{{ partial "menu.html" (dict "menuID" "main" "page" .) }} -->
+
+<div class="border-bottom">
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
+        <img src="{{ "img/logo.png" | relURL }}" alt="Logo" width="96" class="me-2">
+      </a>
+
+      <ul class="nav text-decoration-none">
+        <li class="nav-item"><a href="#" class="nav-link link-secondary" aria-current="page">À propos de moi</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-secondary">Shop</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-secondary">Contactez-moi</a></li>
+      </ul>
+    </header>
+  </div>
+</div>

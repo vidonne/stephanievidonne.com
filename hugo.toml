@@ -1,4 +1,9 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://stephanievidonne.com/'
+languageCode = 'fr-FR'
+title = 'Stéphanie Vidonne'
 theme = "my-theme"
+
+[params]
+  description = "Auteure"
+  keywords = "keyword1, keyword2, keyword3"
+  author = "Stéphanie Vidonne"
