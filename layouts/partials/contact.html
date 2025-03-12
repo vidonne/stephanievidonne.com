@@ -1,27 +1,30 @@
 <section id="contact" class="bg-secondary-subtle py-5">
   <div class="container">
     <h2 class="mb-4">Contactez-moi</h2>
-    <p>Vous avez un projet littéraire? L’envie de mettre en mots une thématique qui vous tient à cœur? N’hésitez pas à me contacter!</p>
-    <form>
+    <p>Vous avez un projet littéraire? L'envie de mettre en mots une thématique qui vous tient à cœur? N'hésitez pas à me contacter!</p>
+    <form action="https://formspree.io/f/xldjepyo" method="POST">
       <div class="grid">
         <div class="g-col-12 g-col-md-6">
           <div class="mb-3">
-            <label for="name" class="form-label mb-1">Nom</label>
-            <input type="text" class="form-control" id="name" required>
+            <label for="name" class="form-label mb-1">Nom <span class="text-primary fw-bold">*</span></label>
+            <input type="text" class="form-control" id="name" name="name" required>
           </div>
         </div>
         <div class="g-col-12 g-col-md-6">
           <div class="mb-3">
-            <label for="email" class="form-label mb-1">Email</label>
-            <input type="email" class="form-control" id="email" required>
+            <label for="email" class="form-label mb-1">Email <span class="text-primary fw-bold">*</span></label>
+            <input type="email" class="form-control" id="email" name="email"  required>
           </div>
         </div>
       </div>
       <div class="mb-3">
-        <label for="message" class="form-label mb-1">Message</label>
-        <textarea class="form-control" id="message" rows="5" required></textarea>
+        <label for="message" class="form-label mb-1">Message <span class="text-primary fw-bold">*</span></label>
+        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Votre message, question ou commentaire." required></textarea>
       </div>
-      <button type="submit" class="btn btn-primary text-light fs-5">Envoi</button>
+      <!-- Optional honeypot field for spam protection -->
+      <input type="text" name="_gotcha" style="display:none">
+      <button type="submit" class="btn btn-primary text-light fs-5">Envoyer</button>
+      <p class="mt-3 small text-muted"><span class="text-primary fw-bold">*</span> Champs obligatoires</p>
     </form>
   </div>
 </section>
