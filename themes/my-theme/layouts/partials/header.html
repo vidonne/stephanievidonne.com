@@ -1,25 +1,18 @@
-<!-- <h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }} -->
-
 <nav class="navbar navbar-expand-lg fixed-top border-bottom bg-body">
   <div class="container d-flex justify-content-between align-items-center">
     <a class="navbar-brand" href="/">
-      <img src="{{ "img/logo.png" | relURL }}" alt="Logo" width="80" class="d-inline-block align-text-center">
+      <img src="{{ "img/logo.png" | relURL }}" alt="Logo" width="72" class="d-inline-block align-text-center">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
+        {{ range .Site.Menus.main }}
         <li class="nav-item">
-          <a class="nav-link" href="#">À propos de moi</a>
+          <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Shop</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contactez-moi</a>
-        </li>
+        {{ end }}
       </ul>
       <div class="ec-cart-widget"></div>
     </div>

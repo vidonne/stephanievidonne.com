@@ -7,3 +7,19 @@ theme = "my-theme"
   description = "Auteure"
   keywords = "keyword1, keyword2, keyword3"
   author = "Stéphanie Vidonne"
+
+[menu]
+  [[menu.main]]
+    name = "À propos de moi"
+    url = "#about"
+    weight = 1
+
+  [[menu.main]]
+    name = "Shop"
+    url = "#shop"
+    weight = 2
+
+  [[menu.main]]
+    name = "Contactez-moi"
+    url = "#contact"
+    weight = 3
