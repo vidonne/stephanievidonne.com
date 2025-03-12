@@ -118,3 +118,13 @@ $headings-color: #000000;
   background-position: top;
   background-repeat: no-repeat;
 }
+
+.text-shadow {
+  text-shadow: 0em 0em 0.1em rgba(253, 236, 239, 0.87); 
+}
+
+.text-shadow-sm {
+  text-shadow: 0em 0em 0.25em rgba(34, 34, 34 , 0.87);
+  opacity: 0.87;
+}
+
