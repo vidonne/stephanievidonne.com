@@ -113,18 +113,18 @@ $headings-color: #000000;
 // 8. Add additional custom code here
 
 .hero-section {
-  background-image: url('/img/hero.jpg');
+  background-image: url('/img/hero_169.jpg');
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
 }
 
-.text-shadow {
-  text-shadow: 0em 0em 0.1em rgba(253, 236, 239, 0.87); 
+.text-shadow-light {
+  text-shadow: 0em 0em 0.15em rgba(255, 255, 255, 0.5); 
 }
 
-.text-shadow-sm {
-  text-shadow: 0em 0em 0.25em rgba(34, 34, 34 , 0.87);
-  opacity: 0.87;
+.text-shadow-dark {
+  text-shadow: 0em 0em 0.15em rgba(0,0,0, 0.6); 
+  text-shadow: 0em 0em 0.05em rgba(0,0,0, 0.9); 
+  font-weight: 300;
 }
-
