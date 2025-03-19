@@ -1,8 +1,11 @@
 image: klakegg/hugo:ext-alpine
 
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
 pages:
   script:
-    - hugo --minify --baseURL "$CI_PAGES_URL"
+    - hugo --minify --baseURL "${CI_PAGES_URL}"
   artifacts:
     paths:
       - public
