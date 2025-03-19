@@ -15,6 +15,7 @@ hugo.linux
 
 # Node modules
 themes/*/node_modules/
+themes/my-theme/assets/
 
 # OS Files
 .DS_Store
