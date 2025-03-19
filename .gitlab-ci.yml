@@ -1,7 +1,6 @@
 image: klakegg/hugo:ext-alpine
 
 pages:
-  entrypoint: [""]
   script:
     - hugo --minify --baseURL "$CI_PAGES_URL"
   artifacts:
