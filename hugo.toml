@@ -2,6 +2,7 @@ baseURL = 'https://stephanievidonne.com/'
 languageCode = 'fr-FR'
 title = 'Stéphanie Vidonne'
 theme = "my-theme"
+ignoreFiles = ["^themes/my-theme/assets/"]
 
 [params]
   description = "Auteure"
