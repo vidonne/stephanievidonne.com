@@ -1,0 +1,8 @@
+{{ if hugo.IsServer }}
+{{ $style := resources.Get "scss/main.scss" | toCSS }}
+<style>
+  {{ $style.Content | safeCSS }}
+</style>
+{{ else }}
+<link rel="stylesheet" href="{{ " css/main.css" | relURL }}">
+{{ end }}
