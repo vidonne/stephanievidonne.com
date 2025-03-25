@@ -3,7 +3,8 @@
     <a class="navbar-brand" href="/">
       <img src="{{ "img/logo.png" | relURL }}" alt="Logo" width="72" class="d-inline-block align-text-center">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -14,11 +15,12 @@
         </li>
         {{ end }}
       </ul>
-      <div class="ec-cart-widget"></div>
+      <div data-layout="SMALL_ICON" data-show-empty-cart="FALSE" data-icon="CART" class="ec-cart-widget"></div>
     </div>
   </div>
 </nav>
 <div>
-  <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?113583755" charset="utf-8"></script>
+  <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?113583755"
+    charset="utf-8"></script>
   <script type="text/javascript">Ecwid.init();</script>
 </div>

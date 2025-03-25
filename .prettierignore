@@ -1,0 +1,4 @@
+layouts/**
+layouts/**/*.html
+content/**/*.md
+archetypes/**
