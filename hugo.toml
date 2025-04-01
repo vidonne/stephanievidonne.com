@@ -1,10 +1,10 @@
 baseURL = 'https://stephanievidonne.com/'
 languageCode = 'fr-FR'
-title = 'Stéphanie Vidonne'
+title = 'Stéphanie Vidonne - Auteure'
 
 
 [params]
-  description = "Auteure"
+  description = "Découvrez les œuvres de Stéphanie Vidonne, auteure passionnée."
   keywords = "keyword1, keyword2, keyword3"
   author = "Stéphanie Vidonne"
 

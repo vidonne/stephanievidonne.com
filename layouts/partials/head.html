@@ -13,6 +13,17 @@
 <meta name="keywords" content="{{ .Site.Params.keywords }}">
 <meta name="author" content="{{ .Site.Params.author }}">
 
+<!-- Open graph -->
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Params.description }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}img/og-image.jpg">
+<meta property="og:url" content="{{ .Permalink }}">
+
+<!-- Twitter card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Params.description }}">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}img/og-image.jpg">
 
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
