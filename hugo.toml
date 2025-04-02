@@ -1,11 +1,11 @@
 baseURL = 'https://stephanievidonne.com/'
 languageCode = 'fr-FR'
-title = 'Stéphanie Vidonne - Auteure'
+title = 'Stéphanie Vidonne - Autrice'
 
 
 [params]
-  description = "Découvrez les œuvres de Stéphanie Vidonne, auteure passionnée."
-  keywords = "keyword1, keyword2, keyword3"
+  description = "Stéphanie Vidonne est une autrice suisse à succès. Ses romans engagés abordent l’amour, la résilience et la liberté d'expression. Sous toutes ses formes !"
+  keywords = "Stéphanie Vidonne, auteure romancière, écrivaine suisse, plume contemporaine, autrice francophone, autrice indépendante, autrice, auteur, écrivain, écrivaine, Impact, Quand tu me prends dans tes bras je vois la vie en Lila, De l'Aurore au Sépia, Anatomie d'un plan cul, romans de Stéphanie Vidonne, livres de Stéphanie Vidonne, littérature contemporaine, romans psychologiques, romans réalistes, littérature érotique, littérature engagée, théâtre, livres sur la résilience, histoires de vie, romans introspectifs, récits émotionnels, livres sur les relations humaines, violence domestique, amours compliquées, relations toxiques, quête de soi, autodérision et humour, féminisme et littérature, liberté d’expression, sexualité et tabous, relations amoureuses, introspection et émotions, auto-édition, édition indépendante, écrire un roman, conseils d’écriture, développement de personnage, structurer un récit, comment publier un livre, auto-publication, lectures francophones, romans pour adultes, livres pour femmes, best-sellers auto-édités, auteurs suisses contemporains, nouveaux auteurs francophones"
   author = "Stéphanie Vidonne"
 
 [menu]
