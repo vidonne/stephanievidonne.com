@@ -1,15 +1,25 @@
 <section id="shop" class="bg-secondary-subtle">
-  <div class="container pt-5 pb-3">
-    <h2 class="mb-4">Shop</h2>
-    <p>Envie de découvrir mon univers littéraire? Alors n’attendez plus pour vous procurer mes romans! Livre papier ou
-      en version numérique: votre format est à portée de click.</p>
-    <div id="my-store-113583755"></div>
-    <div>
-      <script data-cfasync="false" type="text/javascript"
-        src="https://app.ecwid.com/script.js?113583755"
-        charset="utf-8"></script>
-      <script
-        type="text/javascript"> xProductBrowser("categoriesPerRow=4", "views=grid(1,4) list(60) table(60)", "categoryView=grid", "searchView=list", "id=my-store-113583755");</script>
+  <div class="container pt-5 pb-5">
+    <h2 class="display-4 text-center mb-5">Shop</h2>
+    <div class="grid align-items-center">
+      <div class="g-col-12 g-col-lg-4">
+        <img src={{ "img/impact.jpg" | relURL }} class="img-fluid" alt="...">
+      </div>
+      <div class="g-col-12 g-col-lg-8">
+        <h3 class="mb-3">Mon dernier roman</h3>
+        <p>Témoignage fort et poignant, <strong>Impact</strong> retrace le parcours d’une femme victime de violence domestique. Cette histoire révèle sa détresse, ses douleurs, mais également la barbarie d’une société ouvertement indifférente à ses souffrances. Sans complaisance. Et sans filtre. Basé sur des faits réels, ce roman met en lumière la résilience et la force intérieur du personnage principal, mais également de toutes les femmes confrontées à ces violences.</p>
+        <p>Basé sur des faits réels.  Certains éléments ont été modifiés pour des raisons de sécurité.</p>
+        <div class="text-center mt-4">
+          <a href="https://stephanievidonne.bigcartel.com/product/impact" class="btn btn-primary  mb-2" target="_blank" rel="noopener noreferrer">Achetez la version papier {{ partial "icon-caret-right-fill.html" }}</a>
+          <a href="https://www.amazon.fr/Impact-St%C3%A9phanie-Vidonne-ebook/dp/B0D2Q31H5B" class="btn btn-outline-primary mb-2" target="_blank" rel="noopener noreferrer">Achetez la version numérique {{ partial "icon-caret-right-fill.html" }}</a>
+        </div>
+        
+      </div>
+    </div>
+    <div class="text-center mt-5">
+      <h3 class="mb-4">Découvrez tous mes livres,<br>disponibles sur les plateformes suivantes :</h3>
+      <a href="https://stephanievidonne.bigcartel.com/products" class="btn btn-primary mb-2" target="_blank" rel="noopener noreferrer">Mes livres au format papier {{ partial "icon-caret-right-fill.html" }}</a>
+      <a href="https://www.amazon.fr/stores/St%C3%A9phanie-Vidonne/author/B0D2R5YM5K" class="btn btn-outline-primary mb-2" target="_blank" rel="noopener noreferrer">Mes livres au format numérique {{ partial "icon-caret-right-fill.html" }}</a>
     </div>
   </div>
 </section>
